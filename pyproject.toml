@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "markov-generator-service"
+version = "0.1.0"
+description = ""
+authors = ["anmolw"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+markovify = "0.9.3"
+sanic = "~=21.9.3"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.12.1"
+black = "^21.11b1"
+requests = "^2.26.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
